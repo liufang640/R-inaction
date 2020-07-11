@@ -8,6 +8,7 @@
 par(ask=TRUE)
 opar <- par(no.readonly=TRUE) # save original parameter settings
 
+#table函数将数据转换为表格形式
 library(vcd)
 counts <- table(Arthritis$Improved)
 counts
